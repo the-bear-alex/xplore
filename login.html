@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XPlore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="img">
+    <header class="header">
+        <nav>
+            <h1 class="title">XPlore</h1>
+            <ul>
+                <li class="nav"><a href="#">Menu</button></a>
+                    <ul class="list">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li class="sub"><a href="#">Join</a>
+                            <ul class="sm">
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="registration.html">Register</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="login">
+        <h1 class="title">Login Page</h1>
+        <p>Please fill out  the required information.</p>
+        <form method="post" action="https://xplore_login.com">
+            <fieldset>
+                <label for="email">Enter Your Email: <input id="email" name="email" type="email"></label>
+                <label for="password">Enter Your Password: <input id="password" name="password" type="password" pattern="[a-z0-5]{8,}"></label>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <button type="submit" id="submit" class="submit">
+            <span>Submit</span>
+        </button>
+    
+        <button type="reset" id="reset" class="reset">
+            <span>Reset</span>
+        </button>
+    </footer>
+    
+</body>
+</html>

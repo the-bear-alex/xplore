@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="img">
+    <header class="header">
+        <nav>
+            <h1 class="title">XPlore</h1>
+            <ul>
+                <li class="nav"><a href="#">Menu</button></a>
+                    <ul class="list">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li class="sub"><a href="#">Join</a>
+                            <ul class="sm">
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="registration.html">Register</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="events">
+        <h1>Events</h1>
+        <br>
+
+        <p>Please feel free to upload the events you want to advertise for here!</p>
+
+            <container class="file">
+
+                <label for="file">Flyer/Pic of Event:<input type="file" id="file" name="file"></label>
+
+            </container>
+
+            <container class="details">
+
+                <label for="event-name">Event Name:<input type="text" placeholder="name of event" 
+                    id="event-name" name="event-name"></label>
+
+                <label for="date-time">Date & Time of Event:<input type="datetime-local" id="date-time" 
+                    name="date-time"></label>
+
+                <label for="address">Location of Event:<input type="address" id="address" 
+                    name="address"></label>
+
+            </container>
+    </section>
+
+    <footer>
+        <button type="submit" id="submit" class="submit">
+            <span>Submit</span>
+        </button>
+    
+        <button type="reset" id="reset" class="reset">
+            <span>Reset</span>
+        </button>
+    </footer>
+
+</body>
+</html>
